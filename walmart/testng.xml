@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Walmart App">
+
+	<listeners>
+		<listener class-name = "com.qa.ExtentReportListner.ExtentReporterNG"></listener>
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+     <class name="com.walmarttestApp.testcases.CreateAccountTest"/>
+      <class name="com.walmarttestApp.testcases.SignInTest"/>
+       <class name="com.walmarttestApp.testcases.LoginTest"/>
+       <class name="com.walmarttestApp.testcases.HomePageTest"/>
+      <class name="com.walmarttestApp.testcases.MyOrderTest"/>
+      <class name="com.walmarttestApp.testcases.ipadandTabPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
